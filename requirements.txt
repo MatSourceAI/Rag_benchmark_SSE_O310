@@ -1,0 +1,7 @@
+# Online dependencies. Capture an exact tested lock for your own environment.
+# Native BM25 hybrid retrieval requires a compatible Milvus 2.5+ server.
+google-genai
+openai
+pymilvus>=2.5,<3
+requests
+python-dotenv

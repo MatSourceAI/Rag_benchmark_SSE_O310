@@ -1,0 +1,3 @@
+question_id,question,difficulty,reference,grading_notes
+fixture_q1,Where does Fixture Alpha store its label?,Easy,Fixture Alpha stores its label in the blue box.,Mention the blue box.
+fixture_q2,Where does Fixture Beta store its label?,Easy,Fixture Beta stores its label in the green box.,Mention the green box.

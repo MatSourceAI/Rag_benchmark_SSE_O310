@@ -1,0 +1,13 @@
+# Example environment only; not an assertion of the historical versions.
+name: sse-rag-review
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - google-genai
+      - openai
+      - "pymilvus>=2.5,<3"
+      - requests
+      - python-dotenv

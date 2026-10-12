@@ -1,0 +1,4 @@
+# Evaluation API target declared in the original experimental prototype, not a historical lock.
+# Verify a clean install and a user-data online run before tagging a release.
+-r requirements.txt
+ragas==0.4.3
