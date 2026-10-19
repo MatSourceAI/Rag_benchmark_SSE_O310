@@ -8,6 +8,13 @@ This package provides configurable query transformation, retrieval, reranking, a
 
 This repository is the reference implementation for the manuscript "Benchmarking Modular Retrieval-Augmented Generation Pipelines for Solid-State Electrolyte Knowledge Extraction". A citation entry will be added when the paper is published.
 
+## Worked-example notebook
+
+**Notebook**: [`notebooks/01_offline_walkthrough.ipynb`](notebooks/01_offline_walkthrough.ipynb) <br>
+The notebook illustrates conservative formula normalization and character-based chunking without online calls. It demonstrates one reference-code preprocessing step. It does not reproduce private benchmark scores or run five-metric Ragas evaluation. <br>
+**Inputs and outputs**: Uses invented text embedded in the notebook; prints character counts and source-offset chunks.
+
+
 ## Offline quick start
 
 Use Python 3.10 or later. Run from the extracted code root:
